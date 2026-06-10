@@ -1,0 +1,4 @@
+.pontos-chave { background: var(--cinza-100); border-radius: var(--raio); padding: 1rem 1.25rem; margin: 1.5rem 0; }
+.pontos-chave__titulo { margin: 0 0 .5rem; }
+.pontos-chave__lista { margin: 0; padding-left: 1.25rem; }
+.pontos-chave__lista li { margin: .4rem 0; color: var(--cinza-700); }

@@ -1,0 +1,6 @@
+.tabela-wrap { overflow-x: auto; margin: 1rem 0; }
+.tabela { width: 100%; border-collapse: collapse; background: var(--branco); border-radius: var(--raio); overflow: hidden; box-shadow: var(--sombra); }
+.tabela th, .tabela td { text-align: left; padding: .6rem .8rem; border-bottom: 1px solid var(--cinza-200); vertical-align: top; }
+.tabela th { background: var(--azul-900); color: var(--branco); font-weight: 600; }
+.tabela tr:last-child td { border-bottom: none; }
+.tabela tbody tr:nth-child(even) { background: var(--cinza-50); }

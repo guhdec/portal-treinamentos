@@ -1,0 +1,7 @@
+.callout { border-left: 4px solid; border-radius: var(--raio); padding: .75rem 1rem; margin: 1rem 0; }
+.callout__cabecalho { display: flex; align-items: center; gap: .5rem; }
+.callout__icone { font-size: 1.1rem; }
+.callout__texto, .callout__lista { margin: .5rem 0 0; }
+.callout--alerta   { background: var(--alerta-bg);   border-color: var(--alerta-borda);   color: var(--alerta-txt); }
+.callout--info     { background: var(--info-bg);     border-color: var(--info-borda);     color: var(--info-txt); }
+.callout--novidade { background: var(--novidade-bg); border-color: var(--novidade-borda); color: var(--novidade-txt); }
