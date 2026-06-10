@@ -1,0 +1,6 @@
+.home__titulo { margin-bottom: .25rem; }
+.home__sub { color: var(--cinza-500); margin-top: 0; }
+.home__grade { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 1.5rem; }
+.home__resultados { margin-top: 1.5rem; }
+.home__lista-result { list-style: none; padding: 0; display: grid; gap: .5rem; }
+.home__lista-result a { display: block; background: var(--branco); border: 1px solid var(--cinza-200); border-radius: var(--raio); padding: .8rem 1rem; }
