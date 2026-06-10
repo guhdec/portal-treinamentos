@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:elysian-tennis.webflow.io)",
+      "Bash(python *)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git config *)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "@21st-dev/magic"
+  ]
+}
