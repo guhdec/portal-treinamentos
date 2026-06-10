@@ -1,0 +1,7 @@
+.leitor__eyebrow { color: var(--cinza-500); text-transform: uppercase; letter-spacing: .05em; font-size: .8rem; margin: 0; }
+.leitor__titulo { margin: .25rem 0 1rem; }
+.leitor__acoes { margin: 2rem 0 1rem; }
+.btn-concluir { background: var(--azul-500); color: #fff; border: none; border-radius: var(--raio); padding: .7rem 1.25rem; font-size: 1rem; cursor: pointer; }
+.btn-concluir:hover { background: var(--azul-700); }
+.btn-concluir.is-done { background: var(--novidade-borda); }
+.leitor__nav { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; border-top: 1px solid var(--cinza-200); padding-top: 1rem; }

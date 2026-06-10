@@ -1,0 +1,7 @@
+.mod-lista { list-style: none; margin: 1rem 0; padding: 0; display: grid; gap: .5rem; }
+.mod-lista__link { display: flex; gap: .75rem; align-items: flex-start; background: var(--branco); border: 1px solid var(--cinza-200); border-radius: var(--raio); padding: .9rem 1rem; box-shadow: var(--sombra); color: inherit; }
+.mod-lista__link:hover { text-decoration: none; border-color: var(--azul-500); }
+.mod-lista__check { flex: none; width: 1.75rem; height: 1.75rem; border-radius: 999px; background: var(--cinza-100); color: var(--cinza-700); display: grid; place-items: center; font-weight: 700; }
+.mod-lista__check.is-done { background: var(--novidade-borda); color: #fff; }
+.mod-lista__texto { display: flex; flex-direction: column; }
+.mod-lista__resumo { color: var(--cinza-500); font-size: .9rem; }
