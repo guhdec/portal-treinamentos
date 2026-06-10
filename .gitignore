@@ -25,3 +25,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# PDFs de marca (grandes) e extração temporária
+*.pdf
+_pdf_extract/

@@ -1,0 +1,21 @@
+.figura {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+.figura__img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  border-radius: var(--raio);
+  border: 1px solid var(--cinza-200);
+  background: var(--branco);
+  box-shadow: var(--sombra);
+}
+.figura--larga .figura__img {
+  max-width: 100%;
+}
+.figura__legenda {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--cinza-500);
+}

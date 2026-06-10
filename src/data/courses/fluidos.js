@@ -1,9 +1,10 @@
 export const fluidos = {
   id: 'fluidos',
   titulo: 'Fluidos Automotivos',
-  subtitulo: 'Para frentistas e gerentes',
+  subtitulo: 'Treinamento para a gerência',
   descricaoCurta: 'Fluido de freio, ATF, óleos de motor e atendimento ao cliente.',
   icone: '🛢️',
+  capa: '/img/pista-render.jpg',
   modulos: [
     {
       id: 'modulo-1',
@@ -223,7 +224,7 @@ export const fluidos = {
             'O DOT 4 tem saída maior do que o DOT 3 nos veículos atuais — equilibre o estoque de acordo com o perfil dos clientes do posto.',
             'ATF: etiquete o expositor com clareza, informando a especificação de cada produto. A confusão entre tipos é o principal erro de venda nessa categoria.',
             'Validade dos fluidos: verifique periodicamente as datas de fabricação. O fluido de freio, em especial, absorve umidade mesmo com a embalagem fechada e pode degradar antes do vencimento se armazenado de forma inadequada.',
-            'Treine os frentistas para não realizar indicações sem confirmação. Um erro de produto pode causar danos sérios ao cliente e comprometer a reputação do estabelecimento.',
+            'Oriente a equipe de atendimento a não realizar indicações sem confirmação. Um erro de produto pode causar danos sérios ao cliente e comprometer a reputação do estabelecimento.',
           ],
         },
         { tipo: 'titulo', nivel: 3, texto: 'Resumo para Consulta Rápida' },

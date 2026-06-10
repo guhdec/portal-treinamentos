@@ -1,31 +1,46 @@
 :root {
-  /* cores */
-  --azul-900: #1e3a5f;
-  --azul-700: #274b78;
-  --azul-500: #2563eb;
-  --cinza-50: #f6f8fa;
-  --cinza-100: #eef1f5;
-  --cinza-200: #dde3ea;
-  --cinza-500: #64748b;
-  --cinza-700: #334155;
-  --cinza-900: #0f172a;
+  /* === Identidade Audax === */
+  --vermelho: #f51115;
+  --vermelho-escuro: #c20d10;
+  --vermelho-bg: #fef2f2;
+  --ciano: #00c9dd;
+  --ciano-escuro: #009fb0;
   --branco: #ffffff;
+
+  /* cinzas (cinza institucional #575757) */
+  --cinza-50: #f6f6f8;
+  --cinza-100: #f0f0f2;
+  --cinza-200: #e2e2e6;
+  --cinza-500: #7b7b80;
+  --cinza-700: #575757;
+  --cinza-900: #232326;
+
+  /* aliases legados remapeados para a marca */
+  --azul-900: var(--cinza-900);
+  --azul-700: var(--vermelho-escuro);
+  --azul-500: var(--vermelho);
+
   /* callouts */
-  --alerta-bg: #fef3f2; --alerta-borda: #d92d20; --alerta-txt: #7a271a;
-  --info-bg: #eff6ff;   --info-borda: #2563eb;   --info-txt: #1e3a5f;
+  --alerta-bg: #fef2f2; --alerta-borda: #f51115; --alerta-txt: #8a1013;
+  --info-bg: #e9fbfe;   --info-borda: #009fb0;   --info-txt: #0a4953;
   --novidade-bg: #ecfdf3; --novidade-borda: #12b76a; --novidade-txt: #054f31;
+
   /* layout */
-  --raio: 10px;
-  --sombra: 0 1px 3px rgba(15,23,42,.08), 0 1px 2px rgba(15,23,42,.06);
+  --raio: 12px;
+  --sombra: 0 1px 3px rgba(35,35,38,.08), 0 1px 2px rgba(35,35,38,.06);
+  --sombra-md: 0 8px 24px rgba(35,35,38,.12);
   --max-largura: 980px;
   --gap: 1rem;
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --sans: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--sans);
   color: var(--cinza-900);
 }
 
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--cinza-50); line-height: 1.6; }
-a { color: var(--azul-500); text-decoration: none; }
+body { margin: 0; background: var(--cinza-50); line-height: 1.65; color: var(--cinza-900); }
+a { color: var(--vermelho); text-decoration: none; }
 a:hover { text-decoration: underline; }
-h1, h2, h3 { color: var(--azul-900); line-height: 1.25; }
+h1, h2, h3 { color: var(--cinza-900); line-height: 1.25; font-weight: 600; letter-spacing: -0.01em; }
+img { max-width: 100%; }
 .container { max-width: var(--max-largura); margin: 0 auto; padding: 1.5rem 1rem 4rem; }

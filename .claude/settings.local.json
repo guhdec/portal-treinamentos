@@ -17,7 +17,19 @@
       "PowerShell(ls \"C:\\\\TREINAMENTO HTML\\\\src\\\\data\\\\courses\\\\\")",
       "PowerShell($content = Get-Content \"C:\\\\TREINAMENTO HTML\\\\src\\\\lib\\\\search.js\" -Raw; $line = \\($content -split \"`n\" | Where-Object { $_ -match 'replace' }\\); Write-Host \"Line: $line\"; $bytes = [System.Text.Encoding]::UTF8.GetBytes\\($line\\); Write-Host \"Hex: $\\(\\($bytes | ForEach-Object { '{0:X2}' -f $_ }\\) -join ' '\\)\")",
       "Bash(npm run *)",
-      "Bash(dir C:\\\\TREINAMENTO HTML\\\\src *)"
+      "Bash(dir C:\\\\TREINAMENTO HTML\\\\src *)",
+      "Bash(gh auth *)",
+      "Bash(echo \"---exit:$?---\")",
+      "Bash(gh --version)",
+      "PowerShell($gh = Get-Command gh -ErrorAction SilentlyContinue; if \\($gh\\) { \"gh: $\\($gh.Source\\)\"; gh auth status } else { \"gh NOT FOUND\" }; \"---\"; $git = Get-Command git -ErrorAction SilentlyContinue; if \\($git\\) { \"git: $\\($git.Source\\)\" })",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" https://api.github.com/repos/guhdec/portal-treinamentos)",
+      "Bash(command -v pdfimages)",
+      "Bash(pdfimages -v)",
+      "Bash(command -v pdftoppm)",
+      "Bash(command -v magick)",
+      "Bash(echo \"exit:$?\")"
     ]
   },
   "enableAllProjectMcpServers": true,

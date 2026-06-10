@@ -15,6 +15,11 @@ export function CoursePage() {
   return (
     <>
       <p className="curso__voltar"><Link to="/">← Todos os treinamentos</Link></p>
+      {curso.capa && (
+        <div className="curso__hero">
+          <img src={curso.capa} alt="" />
+        </div>
+      )}
       <h1>{curso.titulo}</h1>
       <p className="curso__sub">{curso.subtitulo}</p>
       <div className="curso__progresso">

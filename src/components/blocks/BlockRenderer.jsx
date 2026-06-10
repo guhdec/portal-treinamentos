@@ -5,6 +5,7 @@ import { BulletList } from './BulletList.jsx'
 import { Callout } from './Callout.jsx'
 import { DataTable } from './DataTable.jsx'
 import { KeyPoints } from './KeyPoints.jsx'
+import { Figure } from './Figure.jsx'
 
 export function BlockRenderer({ bloco }) {
   switch (bloco.tipo) {
@@ -14,6 +15,7 @@ export function BlockRenderer({ bloco }) {
     case 'tabela':       return <DataTable colunas={bloco.colunas} linhas={bloco.linhas} />
     case 'callout':      return <Callout {...bloco} />
     case 'pontos-chave': return <KeyPoints itens={bloco.itens} />
+    case 'imagem':       return <Figure {...bloco} />
     default:             return null
   }
 }

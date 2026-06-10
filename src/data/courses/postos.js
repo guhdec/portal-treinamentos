@@ -4,6 +4,7 @@ export const postos = {
   subtitulo: 'Documentação regulatória e fiscalização',
   descricaoCurta: 'Documentos exigidos pelos órgãos fiscalizadores e conduta em vistorias.',
   icone: '⛽',
+  capa: '/img/posto-render-2.jpg',
   modulos: [
     {
       id: 'modulo-1',
@@ -19,6 +20,7 @@ export const postos = {
         },
         { tipo: 'titulo', nivel: 3, texto: 'O que é?' },
         { tipo: 'paragrafo', texto: 'O AVCB é o documento emitido pelo Corpo de Bombeiros Militar do Estado de São Paulo (CBPMESP) após vistoria técnica presencial, certificando que o estabelecimento atende às exigências de segurança contra incêndio e pânico. Para postos de combustíveis — classificados como área de alto risco — o AVCB é obrigatório, não podendo ser substituído pelo CLCB (destinado apenas a atividades de baixo risco).' },
+        { tipo: 'imagem', src: '/img/posto-render-noite.jpg', alt: 'Posto Audax à noite', legenda: 'Posto de combustíveis — área classificada como de alto risco.', largura: 'larga' },
         { tipo: 'titulo', nivel: 3, texto: 'Base Legal Vigente em 2026' },
         {
           tipo: 'tabela',
@@ -251,6 +253,7 @@ export const postos = {
       blocos: [
         { tipo: 'titulo', nivel: 3, texto: 'O que é?' },
         { tipo: 'paragrafo', texto: 'O Cadastro de Tanques, Bombas e Equipamentos Afins é o registro junto à SMUL de todos os equipamentos de armazenamento e abastecimento do posto. Qualquer alteração, instalação ou manutenção exige atualização. Paralelamente, as bombas medidoras são fiscalizadas metrológica e periodicamente pelo IPEM-SP (órgão delegado do INMETRO).' },
+        { tipo: 'imagem', src: '/img/bomba-saia.png', alt: 'Bomba medidora padrão Audax', legenda: 'Bomba medidora — equipamento fiscalizado pelo IPEM-SP / INMETRO.' },
         { tipo: 'titulo', nivel: 3, texto: 'Documentação Exigida no Cadastro Municipal (SMUL)' },
         {
           tipo: 'lista',
@@ -284,6 +287,7 @@ export const postos = {
           titulo: 'Medida padrão obrigatória',
           texto: 'Todo posto deve ter obrigatoriamente uma medida de volume de 20 litros verificada e lacrada pelo IPEM, disponível para uso em caso de contestação de abastecimento. Ela deve ser verificada anualmente.',
         },
+        { tipo: 'imagem', src: '/img/totem.png', alt: 'Totem indicador de produtos e preços', legenda: 'Totem indicador de produtos — preços e tipos de combustível à vista do consumidor.' },
         { tipo: 'titulo', nivel: 3, texto: 'Normas Técnicas de Referência' },
         {
           tipo: 'lista',

@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { getCourses, getCourse, getModule } from '../data/courses/index.js'
 
-const TIPOS = new Set(['titulo', 'paragrafo', 'lista', 'tabela', 'callout', 'pontos-chave'])
+const TIPOS = new Set(['titulo', 'paragrafo', 'lista', 'tabela', 'callout', 'pontos-chave', 'imagem'])
 
 describe('catálogo de cursos', () => {
   it('expõe os dois cursos esperados', () => {
