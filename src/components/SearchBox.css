@@ -1,0 +1,2 @@
+.busca { width: 100%; padding: .7rem 1rem; border: 1px solid var(--cinza-200); border-radius: var(--raio); font-size: 1rem; background: var(--branco); }
+.busca:focus { outline: 2px solid var(--azul-500); border-color: var(--azul-500); }

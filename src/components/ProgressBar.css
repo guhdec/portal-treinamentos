@@ -1,0 +1,4 @@
+.progresso { display: flex; align-items: center; gap: .5rem; }
+.progresso__trilho { flex: 1; height: 8px; background: var(--cinza-200); border-radius: 999px; overflow: hidden; }
+.progresso__barra { height: 100%; background: var(--azul-500); transition: width .25s ease; }
+.progresso__rotulo { font-size: .8rem; color: var(--cinza-500); min-width: 3.5rem; text-align: right; }

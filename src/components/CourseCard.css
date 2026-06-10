@@ -1,0 +1,7 @@
+.curso-card { display: block; background: var(--branco); border: 1px solid var(--cinza-200); border-radius: var(--raio); padding: 1.5rem; box-shadow: var(--sombra); color: inherit; transition: transform .15s ease, box-shadow .15s ease; }
+.curso-card:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(15,23,42,.12); text-decoration: none; }
+.curso-card__icone { font-size: 2rem; }
+.curso-card__titulo { margin: .5rem 0 .25rem; }
+.curso-card__subtitulo { margin: 0; color: var(--azul-700); font-weight: 600; }
+.curso-card__desc { color: var(--cinza-700); margin: .5rem 0; }
+.curso-card__meta { color: var(--cinza-500); font-size: .85rem; margin: .5rem 0; }
