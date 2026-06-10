@@ -1,4 +1,13 @@
-.home__titulo { margin-bottom: .25rem; }
+.home__titulo { margin-bottom: .6rem; }
+.home__titulo::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 4px;
+  margin-top: .5rem;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--vermelho) 0 60%, var(--ciano) 60%);
+}
 .home__sub { color: var(--cinza-500); margin-top: 0; }
 .home__grade { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 1.5rem; }
 .home__resultados { margin-top: 1.5rem; }

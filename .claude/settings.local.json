@@ -39,7 +39,10 @@
       "Bash(curl -s -I --max-time 20 https://portal-treinamentos-eight.vercel.app/img/posto-render-2.jpg)",
       "WebSearch",
       "WebFetch(domain:commons.wikimedia.org)",
-      "Bash(awk '{print $5, $9}')"
+      "Bash(awk '{print $5, $9}')",
+      "Bash(curl -s -I --max-time 20 https://portal-treinamentos-eight.vercel.app/img/fluido-freio.jpg)",
+      "Bash(awk '{print $5,$9}')",
+      "WebFetch(domain:unsplash.com)"
     ]
   },
   "enableAllProjectMcpServers": true,

@@ -1,4 +1,8 @@
-.bloco-titulo { margin: 1.75rem 0 .5rem; }
+.bloco-titulo {
+  margin: 1.9rem 0 .5rem;
+  padding-left: .7rem;
+  border-left: 4px solid var(--vermelho);
+}
 .bloco-paragrafo { margin: .5rem 0; color: var(--cinza-700); }
 .bloco-lista { margin: .5rem 0; padding-left: 1.25rem; color: var(--cinza-700); }
 .bloco-lista li { margin: .25rem 0; }

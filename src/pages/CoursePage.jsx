@@ -20,7 +20,7 @@ export function CoursePage() {
           <img src={curso.capa} alt="" />
         </div>
       )}
-      <h1>{curso.titulo}</h1>
+      <h1 className="curso__titulo">{curso.titulo}</h1>
       <p className="curso__sub">{curso.subtitulo}</p>
       <div className="curso__progresso">
         <ProgressBar percent={percent(total)} label={`${completedCount}/${total} concluídos`} />

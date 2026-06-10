@@ -1,5 +1,15 @@
 .curso__voltar { margin: 0 0 .5rem; }
 .curso__hero { border-radius: var(--raio); overflow: hidden; margin: .5rem 0 1.25rem; box-shadow: var(--sombra); border-bottom: 3px solid var(--vermelho); }
 .curso__hero img { width: 100%; aspect-ratio: 21 / 7; object-fit: cover; display: block; }
+.curso__titulo { margin-bottom: .4rem; }
+.curso__titulo::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 4px;
+  margin-top: .5rem;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--vermelho) 0 60%, var(--ciano) 60%);
+}
 .curso__sub { color: var(--vermelho); font-weight: 600; margin-top: 0; }
 .curso__progresso { max-width: 360px; margin: 1rem 0; }

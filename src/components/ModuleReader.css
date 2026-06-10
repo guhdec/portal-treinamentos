@@ -1,5 +1,14 @@
 .leitor__eyebrow { color: var(--cinza-500); text-transform: uppercase; letter-spacing: .05em; font-size: .8rem; margin: 0; }
 .leitor__titulo { margin: .25rem 0 1rem; }
+.leitor__titulo::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 4px;
+  margin-top: .65rem;
+  border-radius: 2px;
+  background: linear-gradient(90deg, var(--vermelho) 0 60%, var(--ciano) 60%);
+}
 .leitor__acoes { margin: 2rem 0 1rem; }
 .btn-concluir { background: var(--azul-500); color: #fff; border: none; border-radius: var(--raio); padding: .7rem 1.25rem; font-size: 1rem; cursor: pointer; }
 .btn-concluir:hover { background: var(--azul-700); }

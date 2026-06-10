@@ -4,7 +4,7 @@ export const fluidos = {
   subtitulo: 'Treinamento para a gerência',
   descricaoCurta: 'Fluido de freio, ATF, óleos de motor e atendimento ao cliente.',
   icone: '🛢️',
-  capa: '/img/pista-render.jpg',
+  capa: '/img/fluido-capa.jpg',
   modulos: [
     {
       id: 'modulo-1',
@@ -23,7 +23,7 @@ export const fluidos = {
         { tipo: 'paragrafo', texto: 'A qualidade e o estado do fluido impactam diretamente a segurança. Um fluido degradado ou inadequado pode resultar em falha total de frenagem, especialmente em situações de esforço intenso, como descidas longas ou freadas de emergência.' },
         { tipo: 'titulo', nivel: 3, texto: 'O que significa DOT?' },
         { tipo: 'paragrafo', texto: 'DOT é a sigla de Department of Transportation — o Departamento de Transportes dos Estados Unidos. O número que acompanha a sigla indica a especificação de desempenho do produto: quanto maior o número, maior o ponto de ebulição e, portanto, maior a resistência ao calor.' },
-        { tipo: 'imagem', src: '/img/fluido-freio.jpg', alt: 'Frasco de fluido de freio DOT 3', legenda: 'Fluido de freio com a especificação DOT visível na embalagem. Foto: Wikimedia Commons (CC BY 4.0).' },
+        { tipo: 'imagem', src: '/img/fluido-freio.jpg', alt: 'Disco de freio e pinça de um veículo', legenda: 'Sistema de freio a disco. O tipo de fluido (DOT 3 ou DOT 4) vem gravado na tampa do reservatório.' },
         { tipo: 'titulo', nivel: 3, texto: 'DOT 3 × DOT 4 — Comparativo' },
         {
           tipo: 'tabela',
@@ -70,7 +70,7 @@ export const fluidos = {
       blocos: [
         { tipo: 'titulo', nivel: 3, texto: 'O que significa ATF?' },
         { tipo: 'paragrafo', texto: 'ATF é a sigla de Automatic Transmission Fluid — Fluido de Transmissão Automática. É o produto utilizado em câmbios automáticos, transmissões CVT e sistemas de direção hidráulica.' },
-        { tipo: 'imagem', src: '/img/fluido-atf.jpg', alt: 'Frascos de fluido ATF Dexron III / Mercon', legenda: 'Fluido ATF — repare na especificação (Dexron III / Mercon) impressa na embalagem. Foto: Wikimedia Commons (CC BY-SA 3.0).' },
+        { tipo: 'imagem', src: '/img/fluido-atf.jpg', alt: 'Vista interna de um câmbio automático', legenda: 'Interior de um câmbio automático — o ATF lubrifica engrenagens e embreagens e transmite a pressão hidráulica das trocas de marcha.' },
         { tipo: 'titulo', nivel: 3, texto: 'Para que serve?' },
         { tipo: 'paragrafo', texto: 'O ATF desempenha cinco funções simultâneas dentro do câmbio automático:' },
         {
@@ -116,7 +116,7 @@ export const fluidos = {
       blocos: [
         { tipo: 'titulo', nivel: 3, texto: 'Como interpretar o código SAE' },
         { tipo: 'paragrafo', texto: 'Os óleos de motor seguem a classificação da SAE (Society of Automotive Engineers). O código é formado por dois números separados pela letra W. Exemplo: 5W-30.' },
-        { tipo: 'imagem', src: '/img/fluido-oleo.jpg', alt: 'Reabastecimento de óleo de motor com funil', legenda: 'Óleo de motor sendo completado com funil. Foto: Wikimedia Commons (CC BY-SA 3.0).' },
+        { tipo: 'imagem', src: '/img/fluido-oleo.jpg', alt: 'Óleo de motor sendo completado com funil', legenda: 'Completando o óleo do motor com funil. A viscosidade correta (ex.: 5W-30) vem indicada no manual do veículo.' },
         {
           tipo: 'lista',
           itens: [
