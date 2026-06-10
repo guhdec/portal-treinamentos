@@ -253,7 +253,6 @@ export const postos = {
       blocos: [
         { tipo: 'titulo', nivel: 3, texto: 'O que é?' },
         { tipo: 'paragrafo', texto: 'O Cadastro de Tanques, Bombas e Equipamentos Afins é o registro junto à SMUL de todos os equipamentos de armazenamento e abastecimento do posto. Qualquer alteração, instalação ou manutenção exige atualização. Paralelamente, as bombas medidoras são fiscalizadas metrológica e periodicamente pelo IPEM-SP (órgão delegado do INMETRO).' },
-        { tipo: 'imagem', src: '/img/bomba-saia.png', alt: 'Bomba medidora padrão Audax', legenda: 'Bomba medidora — equipamento fiscalizado pelo IPEM-SP / INMETRO.' },
         { tipo: 'titulo', nivel: 3, texto: 'Documentação Exigida no Cadastro Municipal (SMUL)' },
         {
           tipo: 'lista',
@@ -287,7 +286,6 @@ export const postos = {
           titulo: 'Medida padrão obrigatória',
           texto: 'Todo posto deve ter obrigatoriamente uma medida de volume de 20 litros verificada e lacrada pelo IPEM, disponível para uso em caso de contestação de abastecimento. Ela deve ser verificada anualmente.',
         },
-        { tipo: 'imagem', src: '/img/totem.png', alt: 'Totem indicador de produtos e preços', legenda: 'Totem indicador de produtos — preços e tipos de combustível à vista do consumidor.' },
         { tipo: 'titulo', nivel: 3, texto: 'Normas Técnicas de Referência' },
         {
           tipo: 'lista',

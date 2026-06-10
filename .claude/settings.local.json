@@ -29,7 +29,17 @@
       "Bash(pdfimages -v)",
       "Bash(command -v pdftoppm)",
       "Bash(command -v magick)",
-      "Bash(echo \"exit:$?\")"
+      "Bash(echo \"exit:$?\")",
+      "Bash(curl -s --max-time 20 https://portal-treinamento-ruddy.vercel.app/ -o /tmp/p.html -w 'HTTP %{http_code}\\\\n')",
+      "Read(//tmp/**)",
+      "Bash(curl -s -I --max-time 20 \"https://portal-treinamento-ruddy.vercel.app/img/posto-render-2.jpg\")",
+      "Bash(git fetch *)",
+      "Bash(git ls-remote *)",
+      "Bash(curl -s --max-time 20 https://portal-treinamentos-eight.vercel.app/ -o /tmp/p.html -w 'HTTP %{http_code}\\\\n')",
+      "Bash(curl -s -I --max-time 20 https://portal-treinamentos-eight.vercel.app/img/posto-render-2.jpg)",
+      "WebSearch",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "Bash(awk '{print $5, $9}')"
     ]
   },
   "enableAllProjectMcpServers": true,
